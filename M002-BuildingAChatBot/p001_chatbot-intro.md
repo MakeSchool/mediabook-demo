@@ -1,0 +1,16 @@
+---
+title: 'Project: Build a Chat Bot'
+slug: 'chatbot-intro'
+contentType: 'VideoContent'
+contentSrc: ''
+---
+
+# Concept Check-in
+
+Can you find three real-life examples of the ways chat bots are being used?
+
+[Solution]
+Chat bots can fill roles in many different industries including: 
+* **Support:** Providing customer service on an online shopping site
+* **Medicine:** Offering companionship and memory reinforcement for dementia patients
+* **Entertainment:** Allowing people to talk to virtual versions of their favorite superheroes and television characters
