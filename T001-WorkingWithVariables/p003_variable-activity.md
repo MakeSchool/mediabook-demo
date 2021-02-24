@@ -1,16 +1,16 @@
 ---
-title: 'Descriptive Names'
+title: 'Drawing Variable Tables'
 slug: 'variables-activity'
 contentType: 'Assessment'
 ---
 
-# Variable Tables
+# What is a variable table?
 
-Let's practice an easy way of keeping track of variables and their values when we read more complicated code: variable tables.
+Let's practice an easy way of keeping track of variables and their values when we read more complicated code: **Variable Tables**.
 
-A variable table includes the variable name and value at each line of code.
+**Variable tables** include variable names along with their values at each line of code to help you understand how the value changes throughout a program. Let's look at at how they are created:
 
-For this section of code:
+This is a section of code to store score values in a video game.
 
 ```python
 # Here are two variables that store data representing scores for a video game
@@ -23,7 +23,7 @@ high_score = 99
 high_score = my_score
 ```
 
-The variable table would look like this:
+The variable table for this code contains each line of code in order and looks like this:
 
 | Line # | Variable   | Value |
 | ------ | ---------- | ----- |
@@ -33,7 +33,9 @@ The variable table would look like this:
 | 7      | my_score   | 99    |
 | 8      | high_score | 99    |
 
-Let's look at the table entry for line 8: can you explain in your own words why the value in the table is 99?
+Take a look at the table entry for line 8: can you explain in your own words why the value in the table is 99?
+
+## Create Your Own Variable Table
 
 [action]
 Candy break! Draw your own variable table by walking through each line of the following code.
@@ -50,9 +52,7 @@ number_of_kit_kats = number_of_hi_chews
 number_of_hi_chews = number_of_skittles
 ```
 
-# Check Your Understanding
-
-<MultipleChoice prompt="What is the value of `number_of_kitkats` when the program finishes?" choices={[ "20", "70", "15", "88" ]} correctIndex={2} />
+## Check Your Understanding
 
 <MultipleChoice prompt={"What is the value of `number_of_kitkats` when the program finishes?"} choices={[ "20", "70", "15", "88" ]} correctIndex={2} explanation={"The value of `number_of_kitkats` is 15. Let's trace back through the code to find that answer. The value of `number_of_kitkats` is assigned to the value of `number_of_hi_chews` in line 7. `number_of_hi_chews` at that line is 15, because it was assigned that value in line 4."} />
 

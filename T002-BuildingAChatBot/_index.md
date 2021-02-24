@@ -1,5 +1,5 @@
 ---
-title: 'Building a Chat Bot'
+title: 'Building a Chat Bot :robot:'
 slug: 'topic-2'
 contentType: 'CourseTopic'
 ---

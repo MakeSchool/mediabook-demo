@@ -1,5 +1,5 @@
 ---
-title: 'Working with Variables'
+title: 'Working with Variables :notebook:'
 slug: 'topic-1'
 contentType: 'CourseTopic'
 ---
