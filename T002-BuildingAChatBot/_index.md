@@ -1,12 +1,12 @@
 ---
 title: 'Building a Chat Bot'
-slug: 'module-2'
-contentType: 'CourseModule'
+slug: 'topic-2'
+contentType: 'CourseTopic'
 ---
 
 # Building A Chat Bot
 
-## Module Learning Objectives
+## Topic Learning Objectives
 
 * Implement advanced functions using conditionals and boolean logic to create a chat bot program
 * Store and manipulate user data with lists
