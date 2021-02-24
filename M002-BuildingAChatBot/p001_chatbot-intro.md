@@ -7,7 +7,7 @@ contentSrc: ''
 
 # Concept Check-in
 
-Can you find three real-life examples of the ways chat bots are being used?
+What are three real-life examples of the ways chat bots are being used?
 
 [Solution]
 Chat bots can fill roles in many different industries including: 
