@@ -10,7 +10,7 @@ Let's practice an easy way of keeping track of variables and their values when w
 
 A variable table includes the variable name and value at each line of code.
 
-For this section of code
+For this section of code:
 
 ```python
 # Here are two variables that store data representing scores for a video game
@@ -23,7 +23,7 @@ high_score = 99
 high_score = my_score
 ```
 
-The variable table would look like this
+The variable table would look like this:
 
 | Line # | Variable   | Value |
 | ------ | ---------- | ----- |
@@ -33,8 +33,10 @@ The variable table would look like this
 | 7      | my_score   | 99    |
 | 8      | high_score | 99    |
 
+Let's look at the table entry for line 8: can you explain in your own words why the value in the table is 99?
+
 [action]
-Candy break! Draw your own variable table for the following code.
+Candy break! Draw your own variable table by walking through each line of the following code.
 
 ```python
 # Let's count some candy bars

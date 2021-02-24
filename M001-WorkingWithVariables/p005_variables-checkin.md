@@ -6,7 +6,7 @@ contentType: 'Assessment'
 
 # Variables Check-in
 
-Check your understanding of variables in Python with these question. Remember that you can 
+Check your understanding of variables in Python with these question. Remember that you can always revisit the Variables video to review these concepts.
 
 <FlashCard prompt={"In your own words, can you describe what a variable is in Python?"} explanation={"In programming, a variable is a container for a value. You can think of a variable as a box. Each box has a label called the variable name and contains a value. Variables can be initialized and reassigned to new values."} />
 
