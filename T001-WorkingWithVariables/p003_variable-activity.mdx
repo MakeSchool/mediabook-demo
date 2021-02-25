@@ -1,0 +1,69 @@
+---
+title: 'Descriptive Names'
+slug: 'variables-activity'
+contentType: 'Assessment'
+---
+
+# Variable Tables
+
+Let's practice an easy way of keeping track of variables and their values when we read more complicated code: variable tables.
+
+A variable table includes the variable name and value at each line of code.
+
+For this section of code:
+
+```python
+# Here are two variables that store data representing scores for a video game
+my_score = 30
+high_score = 60
+
+#let's use variable reassignment to update the scores!
+my_score = 31
+high_score = 99
+high_score = my_score
+```
+
+The variable table would look like this:
+
+| Line # | Variable   | Value |
+| ------ | ---------- | ----- |
+| 2      | my_score   | 30    |
+| 3      | high_score | 60    |
+| 6      | my_score   | 31    |
+| 7      | my_score   | 99    |
+| 8      | high_score | 99    |
+
+Let's look at the table entry for line 8: can you explain in your own words why the value in the table is 99?
+
+<Action>
+
+Candy break! Draw your own variable table by walking through each line of the following code.
+
+</Action>
+
+```python
+# Let's count some candy bars
+number_of_kit_kats = 20
+number_of_skittles = 70
+number_of_hi_chews = 15
+
+number_of_kit_kats = 88
+number_of_skittles = number_of_kit_kats
+number_of_kit_kats = number_of_hi_chews
+number_of_hi_chews = number_of_skittles
+```
+
+## Check Your Understanding
+
+<MultipleChoice>
+  <Prompt>
+
+What is the value of `number_of_kitkats` when the program finishes?
+
+  </Prompt>
+
+  <Choice>20</Choice>
+  <Choice correct>70</Choice>
+  <Choice>15</Choice>
+  <Choice>88</Choice>
+</MultipleChoice>
