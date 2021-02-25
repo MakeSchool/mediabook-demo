@@ -4,4 +4,4 @@ slug: 'variables-confidence'
 contentType: 'Assessment'
 ---
 
-< ConfidenceCheck />
+<ConfidenceCheck/>

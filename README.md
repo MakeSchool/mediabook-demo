@@ -1,4 +1,4 @@
-# Demo Module for the Mediabook Platform
+# Demo Topic for the Mediabook Platform
 
 ## Contents:
 
