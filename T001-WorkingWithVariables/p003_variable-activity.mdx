@@ -19,7 +19,7 @@ high_score = 60
 
 #let's use variable reassignment to update the scores!
 my_score = 31
-high_score = 99
+my_score = 99
 high_score = my_score
 ```
 
@@ -27,13 +27,28 @@ The variable table would look like this:
 
 | Line # | Variable   | Value |
 | ------ | ---------- | ----- |
-| 2      | my_score   | 30    |
-| 3      | high_score | 60    |
-| 6      | my_score   | 31    |
-| 7      | my_score   | 99    |
-| 8      | high_score | 99    |
+| 2      | `my_score`   | 30    |
+| 3      | `high_score` | 60    |
+| 6      | `my_score`   | 31    |
+| 7      | `my_score`   | 99    |
+| 8      | `high_score` | 99    |
 
 Let's look at the table entry for line 8: can you explain in your own words why the value in the table is 99?
+
+<TextResponse>
+  <Prompt>
+
+On line 8 of the table, why is the value of of `high_score` 99?
+
+  </Prompt>
+  <Explanation>
+
+`my_score` is assigned 30, then 31, then 99. `high_score` starts at 60 on line 3. Then, `high_score` gets assigned the value of `my_score` on line 8, which is 99.
+
+  </Explanation>
+  <SelfCheck />
+</TextResponse>
+
 
 <Action>
 
