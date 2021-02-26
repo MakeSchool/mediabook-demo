@@ -31,9 +31,10 @@ x = 10
 
 How do you write a flashcard component?
 
-Try creating one inline in your mdx. See if you can style
+Try creating one inline in your mdx. Write
 - the prompt
 - the answer
+- optionally, a SelfCheck
 
 </Prompt>
 <Answer>
@@ -45,11 +46,15 @@ Use a shortcode in mdx and either:
 Note that newlines are needed for embedding mdx inside of React.
 
 </Answer>
+<SelfCheck />
 </FlashCard>
+
+You can also use props for all these:
 
 <FlashCard
  prompt={"How do you assign a variable in python? Draw it out."}
  explanation={"You use the assignment operator, ="}
+ selfcheck={<SelfCheck />}
 />
 
 ## Next, the slightly more complicated MultipleChoice component
@@ -144,6 +149,7 @@ Some common analogies are:
 - an envelope to put a value in
 
 </Explanation>
+<SelfCheck />
 </TextResponse>
 
 ## Confidence Check
