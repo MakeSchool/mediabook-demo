@@ -8,7 +8,6 @@ contentType: 'Assessment'
 
 We have a few different types of questions and syntaxes for asking them.
 
-
 ## First, the venerable FlashCard
 
 <FlashCard>
@@ -32,6 +31,7 @@ x = 10
 How do you write a flashcard component?
 
 Try creating one inline in your mdx. Write
+
 - the prompt
 - the answer
 - optionally, a SelfCheck
@@ -40,8 +40,9 @@ Try creating one inline in your mdx. Write
 <Answer>
 
 Use a shortcode in mdx and either:
-  - pass props
-  - use Prompt and Answer subcomponents
+
+- pass props
+- use Prompt and Answer subcomponents
 
 Note that newlines are needed for embedding mdx inside of React.
 
@@ -52,9 +53,9 @@ Note that newlines are needed for embedding mdx inside of React.
 You can also use props for all these:
 
 <FlashCard
- prompt={"How do you assign a variable in python? Draw it out."}
- explanation={"You use the assignment operator, ="}
- selfcheck={<SelfCheck />}
+  prompt={'How do you assign a variable in python? Draw it out.'}
+  answer={'You use the assignment operator, ='}
+  selfcheck={<SelfCheck />}
 />
 
 ## Next, the slightly more complicated MultipleChoice component
@@ -75,26 +76,27 @@ You can also use props for all these:
   <Choice>
     ==
   </Choice>
-  <Explanation>
+  <Answer>
 
 The `=` operator stores a value in a variable.
 
 The other operators have other jobs:
+
 - `+` adds things together
 - `()` groups items
 - `==` checks if two items are equal.
 
 It's especially easy to mix up `=` and `==`!
 
-  </Explanation>
+  </Answer>
 </MultipleChoice>
 
 <MultipleChoice
   prompt="What can you use as the name of a python variable?"
   choices={[
-    "Any text! This whole sentence could be a variable name.",
-    "Lowercase letters only",
-    "Uppercase and lowercase letters, numbers, and underscores, with no spaces, starting with a letter."
+    'Any text! This whole sentence could be a variable name.',
+    'Lowercase letters only',
+    'Uppercase and lowercase letters, numbers, and underscores, with no spaces, starting with a letter.',
   ]}
   correctIndex={2}
 />
@@ -112,9 +114,10 @@ What prop needs to be passed to the component?
 1. `color` to set the color of the question
 2. `padding` to set how much width the component uses
 3. `correct` to set which option is the correct one
-4. `explanation` to pass an explanation for the answer
+4. `answer` for the text that will show after submit.
 
-There is an explanation. It doesn't get passed as a prop - it's just whatever text appears after the ordered list.
+There is an answer. It doesn't get passed as a prop - it's just whatever text appears after the
+ordered list.
 
 It'll only show after the student checks their answer.
 
@@ -122,10 +125,7 @@ It'll only show after the student checks their answer.
 
 ## We also have a TextResponse component
 
-<TextResponse
-  prompt={"What excites you about learning to code?"}
-  explanation={"Thanks for sharing."}
-/>
+<TextResponse prompt={'What excites you about learning to code?'} answer={'Thanks for sharing.'} />
 
 <TextResponse>
   <Prompt>
@@ -136,7 +136,7 @@ Prompt for the text response component, can use markdown
 
   </Prompt>
 
-  <Explanation>
+  <Answer>
 
 Variables are a way to give a value a name you can use later.
 
@@ -148,7 +148,7 @@ Some common analogies are:
 - a nametag for an item
 - an envelope to put a value in
 
-</Explanation>
+</Answer>
 <SelfCheck />
 </TextResponse>
 
@@ -160,11 +160,9 @@ Allow the student to react with how they are feeling.
 
 <ConfidenceCheck prompt="How are you feeling about python syntax?" />
 
-An empty `prompt` prop will render a check without a prompt
-(this text is in the markdown above the component)
+An empty `prompt` prop will render a check without a prompt (this text is in the markdown above the
+component)
 
 <ConfidenceCheck prompt="" />
 
-<ConfidenceCheck>
-  How are you feeling about shortcodes?
-</ConfidenceCheck>
+<ConfidenceCheck>How are you feeling about shortcodes?</ConfidenceCheck>
